@@ -61,6 +61,9 @@ The application follows several key design principles:
 2. PostgreSQL 12 or higher
 3. Maven
 
+## Run docker container interactively
+docker run -it --rm --network postgres postgres:17.2 psql -h postgres -U daniel;
+
 ## Database Setup
 
 1. Create a PostgreSQL database named 'daniel'
